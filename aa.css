@@ -9,6 +9,11 @@
   font-style: normal;
 }
 
+body {
+  margin: 16px;
+  max-width: min-content;
+}
+
 .aa {
   line-height: 100%;
   font-family: 'ＭＳ Ｐゴシック', 'MS PGothic', 'MS Pｺﾞｼｯｸ', 'MS Pゴシック', ＭＳＰゴシック, MSPゴシック, IPAMonaPGothic, 'IPA モナー Pゴシック', 'IPA mona PGothic', 'IPA MONAPGOTHIC', Mona, Monapo, Saitamaar, sans-serif;
@@ -17,4 +22,16 @@
 .ivrit {
   line-height: 100%;
   font-family: 'Courier New', Consolas, 'Inconsolata', monospace;
+}
+
+footer {
+  overflow: auto;
+}
+
+.signature {
+  float: left;
+}
+
+.social-button {
+  float: right;
 }
