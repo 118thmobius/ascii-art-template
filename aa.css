@@ -15,5 +15,6 @@
 }
 
 .ivrit {
+  line-height: 100%;
   font-family: 'Courier New', Consolas, 'Inconsolata', monospace;
 }
