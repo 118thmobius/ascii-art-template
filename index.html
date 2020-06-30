@@ -6,38 +6,174 @@
   <title lang="ja"></title>
   <link href="https://fonts.googleapis.com/css?family=Cousine&display=swap" rel="stylesheet">
   <style>
-    @font-face {
-      font-family: 'giko2';
-      src: local('giko2'),
-      url('fonts/giko2.woff2') format('woff2'),
-      url('fonts/giko2.woff') format('woff'),
-      url('fonts/giko2.ttf') format('truetype');
-      font-weight: normal;
-      font-style: normal;
-      font-display: swap;
-    }
-    body {
-      margin: 16px;
-      max-width: min-content;
-    }
-    .aa {
-      line-height: 100%;
-      font-family: giko2, sans-serif;
-    }
-    .ivrit {
-      line-height: 100%;
-      font-family: Cousine, monospace;
-    }
-    footer {
-      overflow: auto;
-    }
-    .signature {
-      float: left;
-      font-family: Cousine, monospace;
-    }
-    .social-button {
-      float: right;
-    }
+  @font-face {
+    font-family: 'aahub';
+    src: local('aahub'),
+    url('fonts/aahub/aahub.woff2') format('woff2'),
+    url('fonts/aahub/aahub.woff') format('woff'),
+    url('fonts/aahub/aahub.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: 'aahub_light';
+    src: local('aahub_light'),
+    url('fonts/aahub_light/aahub_light.woff2') format('woff2'),
+    url('fonts/aahub_light/aahub_light.woff') format('woff'),
+    url('fonts/aahub_light/aahub_light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: 'ipamona';
+    src: local('ipamona'),
+    url('fonts/ipamona/ipamona.woff2') format('woff2'),
+    url('fonts/ipamona/ipamona.woff') format('woff'),
+    url('fonts/ipamona/ipamona.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: 'monapo';
+    src: local('monapo'),
+    url('fonts/monapo/monapo.woff2') format('woff2'),
+    url('fonts/monapo/monapo.woff') format('woff'),
+    url('fonts/monapo/monapo.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: 'Saitamaar';
+    src: local('Saitamaar'),
+    url('fonts/Saitamaar/Saitamaar.woff2') format('woff2'),
+    url('fonts/Saitamaar/Saitamaar.woff') format('woff'),
+    url('fonts/Saitamaar/Saitamaar.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: 'RobotoJAA';
+    src: local('RobotoJAA'),
+    url('fonts/RobotoJAA/RobotoJAA-Regular.woff2') format('woff2'),
+    url('fonts/RobotoJAA/RobotoJAA-Regular.woff') format('woff'),
+    url('fonts/RobotoJAA/RobotoJAA-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: 'textar';
+    src: local('textar'),
+    url('fonts/textar/textar.woff2') format('woff2'),
+    url('fonts/textar/textar.woff') format('woff'),
+    url('fonts/textar/textar.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: 'textar-min';
+    src: local('textar-min'),
+    url('fonts/textar-min/textar-min.woff2') format('woff2'),
+    url('fonts/textar-min/textar-min.woff') format('woff'),
+    url('fonts/textar-min/textar-min.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: 'ume-pgc4';
+    src: local('ume-pgc4'),
+    url('fonts/ume-pgc4/ume-pgc4.woff2') format('woff2'),
+    url('fonts/ume-pgc4/ume-pgc4.woff') format('woff'),
+    url('fonts/ume-pgc4/ume-pgc4.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: 'monaya';
+    src: local('monaya'),
+    url('fonts/monaya/monaya.woff2') format('woff2'),
+    url('fonts/monaya/monaya.woff') format('woff'),
+    url('fonts/monaya/monaya.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: 'giko2';
+    src: local('giko2'),
+    url('fonts/giko2/giko2.woff2') format('woff2'),
+    url('fonts/giko2/giko2.woff') format('woff'),
+    url('fonts/giko2/giko2.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+
+
+  .aahub {
+    font-family: aahub, sans-serif;
+  }
+  .aahub_light {
+    font-family: aahub_light, sans-serif;
+  }
+  .ipamona {
+    font-family: ipamona, sans-serif;
+  }
+  .monapo {
+    font-family: monapo, sans-serif;
+  }
+  .Saitamaar {
+    font-family: Saitamaar, sans-serif;
+  }
+  .RobotoJAA {
+    font-family: RobotoJAA, sans-serif;
+  }
+  .textar {
+    font-family: textar, sans-serif;
+  }
+  .textar-min {
+    font-family: textar-min, sans-serif;
+  }
+  .ume-pgc4 {
+    font-family: ume-pgc4, sans-serif;
+  }
+  .monaya {
+    font-family: monaya, sans-serif;
+  }
+  .giko2 {
+    font-family: giko2, sans-serif;
+  }
+  .cousine {
+    font-family: Cousine, monospace;
+  }
+  body {
+    margin: 16px;
+    max-width: min-content;
+  }
+  .aa {
+    line-height: 100%;
+  }
+  .ivrit {
+    line-height: 100%;
+  }
+  footer {
+    overflow: auto;
+  }
+  .signature {
+    float: left;
+    font-family: Cousine, monospace;
+  }
+  .social-button {
+    float: right;
+  }
   </style>
   <meta name="theme-color" content="#" />
 </head>
@@ -45,7 +181,7 @@
 <body>
   <header></header>
 
-  <pre class="ivrit">
+  <pre class="ivrit cousine">
      _    ____   ____ ___ ___
     / \  / ___| / ___|_ _|_ _|
    / _ \ \___ \| |    | | | |
@@ -53,7 +189,7 @@
  /_/   \_\____/ \____|___|___|
 
   </pre>
-  <pre class="aa">
+  <pre class="aa aahub">
 　　　　　　　　　　　　ｒ ―v ⌒丶　＿
 　 　 　 　 　 　 ,..-―´:_: :r| ,.. :: ´: : : : : : :｀:....
 　　　　　　　　/: Y ￣⊂／: : : : : : : : : : : : : : : ヽ
@@ -80,13 +216,275 @@
 　　　￣　　　　　　　 　 :ー＼ 廴辷勹ノ　∨ー ´／
 　　　　　　　　　　　　　　::::::::ｒー――――匕 ´
   </pre>
-  <pre class="ivrit">
-     _____ _______  _______
-    |_   _| ____\ \/ /_   _|
-      | | |  _|  \  /  | |
-      | | | |___ /  \  | |
-      |_| |_____/_/\_\ |_|
-
+  <pre class="aa aahub_light">
+　　　　　　　　　　　　ｒ ―v ⌒丶　＿
+　 　 　 　 　 　 ,..-―´:_: :r| ,.. :: ´: : : : : : :｀:....
+　　　　　　　　/: Y ￣⊂／: : : : : : : : : : : : : : : ヽ
+　　　　 　 　 /: : { 　 ／: : : : : : : : : : : : ::∧: : : : :
+　　　　 　 ／.: : : ゝ/: :;: : : : : : : : : : : : :/　　、: : : :i
+　 　 　 ／ /: : : : :/: :/: : : : : :/: : ::i: : :/ ＿　ヽ: : :::|
+　　　 /　 /: : : : :/／i: : : : /:´i￣: !!:::/ ´ 　 ヽ }: : : !
+　　　.{ 　 {: : : : /: : : |:| : : |＿|!＿」∨　　 　 　 !n : |
+　　　 ヽ　 ＼: : : : : : ﾘ!:_:_:| , ＝=　　 　　=＝､　 }: :|
+　　　 　 ＼__}: : : : : : !: : |:| ′,, ,　　 '　　　,, , ｀ / /
+　　　　　　　 ! : : : : : |: : !:|!　　　 , -―-､　 　 /: /}
+　　　　　　 ノ:: : : : : ::|: ::| 八　　 l　　　　}　　/／:/
+　., =＝ニ´: : : ﾉ: : :ノ| : |＿ .＞　　 --　　／}从/
+. (　 　／: : :／ー ´ f.|: :|　||　 　 l　ー　 i´ ￣ }/⌒丶
+　　　( : : イ 　 　 　 | !ﾊ!　||　　 　 ,　- 、　　//　　　}
+　　　 ＼: :|　rtn ､.__|　　._」|rnri／, ―　У}屮― 、./
+　　　 　 )/ {辷勹ﾉ: :! ／ｒtn'＾i/　{　辷}　)/}Ｖ⌒ヽ/　＼ ＿
+　　　.／´.:.:.:.:.:.:.:.:.:.:／　{辷勹{　入　Y ´　人 _)Y) )　　 ｒtn　ヽ
+　 .／.:.:.:.:.:.:.:.:.:.:.:.:.:〈　 r七＿ノ, ´rt　ヽ ／　 _У／ )　{辷勹__　Y
+／.:.:.:.:_.:.:.:.:_ ..:.:.:.:..:.:＼＞ _ ノ {　{勹)　|!　ｆ‐'勹 .}／-､　ー´￣ 　 ､
+: :: :: :＼∨/- .:.:.:.:.:.:.rr}Y 人＼廴ｚ　_ノ廴　辷У斗- '　　　　　　　＼
+　　　　 }{r勹ﾉ} 　. :::{fi.∨ｒｊハ　} ／　 ヽ 兀_　　}Уi }　　　　　　　　　)
+　　　／∧ー '　　　 ＼ ｀廴〈ノ/ tr― } }､.　}/勹ﾉ　,′　　　　 　 　 (
+　　　￣　　　　　　　 　 :ー＼ 廴辷勹ノ　∨ー ´／
+　　　　　　　　　　　　　　::::::::ｒー――――匕 ´
+  </pre>
+  <pre class="aa ipamona">
+　　　　　　　　　　　　ｒ ―v ⌒丶　＿
+　 　 　 　 　 　 ,..-―´:_: :r| ,.. :: ´: : : : : : :｀:....
+　　　　　　　　/: Y ￣⊂／: : : : : : : : : : : : : : : ヽ
+　　　　 　 　 /: : { 　 ／: : : : : : : : : : : : ::∧: : : : :
+　　　　 　 ／.: : : ゝ/: :;: : : : : : : : : : : : :/　　、: : : :i
+　 　 　 ／ /: : : : :/: :/: : : : : :/: : ::i: : :/ ＿　ヽ: : :::|
+　　　 /　 /: : : : :/／i: : : : /:´i￣: !!:::/ ´ 　 ヽ }: : : !
+　　　.{ 　 {: : : : /: : : |:| : : |＿|!＿」∨　　 　 　 !n : |
+　　　 ヽ　 ＼: : : : : : ﾘ!:_:_:| , ＝=　　 　　=＝､　 }: :|
+　　　 　 ＼__}: : : : : : !: : |:| ′,, ,　　 '　　　,, , ｀ / /
+　　　　　　　 ! : : : : : |: : !:|!　　　 , -―-､　 　 /: /}
+　　　　　　 ノ:: : : : : ::|: ::| 八　　 l　　　　}　　/／:/
+　., =＝ニ´: : : ﾉ: : :ノ| : |＿ .＞　　 --　　／}从/
+. (　 　／: : :／ー ´ f.|: :|　||　 　 l　ー　 i´ ￣ }/⌒丶
+　　　( : : イ 　 　 　 | !ﾊ!　||　　 　 ,　- 、　　//　　　}
+　　　 ＼: :|　rtn ､.__|　　._」|rnri／, ―　У}屮― 、./
+　　　 　 )/ {辷勹ﾉ: :! ／ｒtn'＾i/　{　辷}　)/}Ｖ⌒ヽ/　＼ ＿
+　　　.／´.:.:.:.:.:.:.:.:.:.:／　{辷勹{　入　Y ´　人 _)Y) )　　 ｒtn　ヽ
+　 .／.:.:.:.:.:.:.:.:.:.:.:.:.:〈　 r七＿ノ, ´rt　ヽ ／　 _У／ )　{辷勹__　Y
+／.:.:.:.:_.:.:.:.:_ ..:.:.:.:..:.:＼＞ _ ノ {　{勹)　|!　ｆ‐'勹 .}／-､　ー´￣ 　 ､
+: :: :: :＼∨/- .:.:.:.:.:.:.rr}Y 人＼廴ｚ　_ノ廴　辷У斗- '　　　　　　　＼
+　　　　 }{r勹ﾉ} 　. :::{fi.∨ｒｊハ　} ／　 ヽ 兀_　　}Уi }　　　　　　　　　)
+　　　／∧ー '　　　 ＼ ｀廴〈ノ/ tr― } }､.　}/勹ﾉ　,′　　　　 　 　 (
+　　　￣　　　　　　　 　 :ー＼ 廴辷勹ノ　∨ー ´／
+　　　　　　　　　　　　　　::::::::ｒー――――匕 ´
+  </pre>
+  <pre class="aa monapo">
+　　　　　　　　　　　　ｒ ―v ⌒丶　＿
+　 　 　 　 　 　 ,..-―´:_: :r| ,.. :: ´: : : : : : :｀:....
+　　　　　　　　/: Y ￣⊂／: : : : : : : : : : : : : : : ヽ
+　　　　 　 　 /: : { 　 ／: : : : : : : : : : : : ::∧: : : : :
+　　　　 　 ／.: : : ゝ/: :;: : : : : : : : : : : : :/　　、: : : :i
+　 　 　 ／ /: : : : :/: :/: : : : : :/: : ::i: : :/ ＿　ヽ: : :::|
+　　　 /　 /: : : : :/／i: : : : /:´i￣: !!:::/ ´ 　 ヽ }: : : !
+　　　.{ 　 {: : : : /: : : |:| : : |＿|!＿」∨　　 　 　 !n : |
+　　　 ヽ　 ＼: : : : : : ﾘ!:_:_:| , ＝=　　 　　=＝､　 }: :|
+　　　 　 ＼__}: : : : : : !: : |:| ′,, ,　　 '　　　,, , ｀ / /
+　　　　　　　 ! : : : : : |: : !:|!　　　 , -―-､　 　 /: /}
+　　　　　　 ノ:: : : : : ::|: ::| 八　　 l　　　　}　　/／:/
+　., =＝ニ´: : : ﾉ: : :ノ| : |＿ .＞　　 --　　／}从/
+. (　 　／: : :／ー ´ f.|: :|　||　 　 l　ー　 i´ ￣ }/⌒丶
+　　　( : : イ 　 　 　 | !ﾊ!　||　　 　 ,　- 、　　//　　　}
+　　　 ＼: :|　rtn ､.__|　　._」|rnri／, ―　У}屮― 、./
+　　　 　 )/ {辷勹ﾉ: :! ／ｒtn'＾i/　{　辷}　)/}Ｖ⌒ヽ/　＼ ＿
+　　　.／´.:.:.:.:.:.:.:.:.:.:／　{辷勹{　入　Y ´　人 _)Y) )　　 ｒtn　ヽ
+　 .／.:.:.:.:.:.:.:.:.:.:.:.:.:〈　 r七＿ノ, ´rt　ヽ ／　 _У／ )　{辷勹__　Y
+／.:.:.:.:_.:.:.:.:_ ..:.:.:.:..:.:＼＞ _ ノ {　{勹)　|!　ｆ‐'勹 .}／-､　ー´￣ 　 ､
+: :: :: :＼∨/- .:.:.:.:.:.:.rr}Y 人＼廴ｚ　_ノ廴　辷У斗- '　　　　　　　＼
+　　　　 }{r勹ﾉ} 　. :::{fi.∨ｒｊハ　} ／　 ヽ 兀_　　}Уi }　　　　　　　　　)
+　　　／∧ー '　　　 ＼ ｀廴〈ノ/ tr― } }､.　}/勹ﾉ　,′　　　　 　 　 (
+　　　￣　　　　　　　 　 :ー＼ 廴辷勹ノ　∨ー ´／
+　　　　　　　　　　　　　　::::::::ｒー――――匕 ´
+  </pre>
+  <pre class="aa Saitamaar">
+　　　　　　　　　　　　ｒ ―v ⌒丶　＿
+　 　 　 　 　 　 ,..-―´:_: :r| ,.. :: ´: : : : : : :｀:....
+　　　　　　　　/: Y ￣⊂／: : : : : : : : : : : : : : : ヽ
+　　　　 　 　 /: : { 　 ／: : : : : : : : : : : : ::∧: : : : :
+　　　　 　 ／.: : : ゝ/: :;: : : : : : : : : : : : :/　　、: : : :i
+　 　 　 ／ /: : : : :/: :/: : : : : :/: : ::i: : :/ ＿　ヽ: : :::|
+　　　 /　 /: : : : :/／i: : : : /:´i￣: !!:::/ ´ 　 ヽ }: : : !
+　　　.{ 　 {: : : : /: : : |:| : : |＿|!＿」∨　　 　 　 !n : |
+　　　 ヽ　 ＼: : : : : : ﾘ!:_:_:| , ＝=　　 　　=＝､　 }: :|
+　　　 　 ＼__}: : : : : : !: : |:| ′,, ,　　 '　　　,, , ｀ / /
+　　　　　　　 ! : : : : : |: : !:|!　　　 , -―-､　 　 /: /}
+　　　　　　 ノ:: : : : : ::|: ::| 八　　 l　　　　}　　/／:/
+　., =＝ニ´: : : ﾉ: : :ノ| : |＿ .＞　　 --　　／}从/
+. (　 　／: : :／ー ´ f.|: :|　||　 　 l　ー　 i´ ￣ }/⌒丶
+　　　( : : イ 　 　 　 | !ﾊ!　||　　 　 ,　- 、　　//　　　}
+　　　 ＼: :|　rtn ､.__|　　._」|rnri／, ―　У}屮― 、./
+　　　 　 )/ {辷勹ﾉ: :! ／ｒtn'＾i/　{　辷}　)/}Ｖ⌒ヽ/　＼ ＿
+　　　.／´.:.:.:.:.:.:.:.:.:.:／　{辷勹{　入　Y ´　人 _)Y) )　　 ｒtn　ヽ
+　 .／.:.:.:.:.:.:.:.:.:.:.:.:.:〈　 r七＿ノ, ´rt　ヽ ／　 _У／ )　{辷勹__　Y
+／.:.:.:.:_.:.:.:.:_ ..:.:.:.:..:.:＼＞ _ ノ {　{勹)　|!　ｆ‐'勹 .}／-､　ー´￣ 　 ､
+: :: :: :＼∨/- .:.:.:.:.:.:.rr}Y 人＼廴ｚ　_ノ廴　辷У斗- '　　　　　　　＼
+　　　　 }{r勹ﾉ} 　. :::{fi.∨ｒｊハ　} ／　 ヽ 兀_　　}Уi }　　　　　　　　　)
+　　　／∧ー '　　　 ＼ ｀廴〈ノ/ tr― } }､.　}/勹ﾉ　,′　　　　 　 　 (
+　　　￣　　　　　　　 　 :ー＼ 廴辷勹ノ　∨ー ´／
+　　　　　　　　　　　　　　::::::::ｒー――――匕 ´
+  </pre>
+  <pre class="aa RobotoJAA">
+　　　　　　　　　　　　ｒ ―v ⌒丶　＿
+　 　 　 　 　 　 ,..-―´:_: :r| ,.. :: ´: : : : : : :｀:....
+　　　　　　　　/: Y ￣⊂／: : : : : : : : : : : : : : : ヽ
+　　　　 　 　 /: : { 　 ／: : : : : : : : : : : : ::∧: : : : :
+　　　　 　 ／.: : : ゝ/: :;: : : : : : : : : : : : :/　　、: : : :i
+　 　 　 ／ /: : : : :/: :/: : : : : :/: : ::i: : :/ ＿　ヽ: : :::|
+　　　 /　 /: : : : :/／i: : : : /:´i￣: !!:::/ ´ 　 ヽ }: : : !
+　　　.{ 　 {: : : : /: : : |:| : : |＿|!＿」∨　　 　 　 !n : |
+　　　 ヽ　 ＼: : : : : : ﾘ!:_:_:| , ＝=　　 　　=＝､　 }: :|
+　　　 　 ＼__}: : : : : : !: : |:| ′,, ,　　 '　　　,, , ｀ / /
+　　　　　　　 ! : : : : : |: : !:|!　　　 , -―-､　 　 /: /}
+　　　　　　 ノ:: : : : : ::|: ::| 八　　 l　　　　}　　/／:/
+　., =＝ニ´: : : ﾉ: : :ノ| : |＿ .＞　　 --　　／}从/
+. (　 　／: : :／ー ´ f.|: :|　||　 　 l　ー　 i´ ￣ }/⌒丶
+　　　( : : イ 　 　 　 | !ﾊ!　||　　 　 ,　- 、　　//　　　}
+　　　 ＼: :|　rtn ､.__|　　._」|rnri／, ―　У}屮― 、./
+　　　 　 )/ {辷勹ﾉ: :! ／ｒtn'＾i/　{　辷}　)/}Ｖ⌒ヽ/　＼ ＿
+　　　.／´.:.:.:.:.:.:.:.:.:.:／　{辷勹{　入　Y ´　人 _)Y) )　　 ｒtn　ヽ
+　 .／.:.:.:.:.:.:.:.:.:.:.:.:.:〈　 r七＿ノ, ´rt　ヽ ／　 _У／ )　{辷勹__　Y
+／.:.:.:.:_.:.:.:.:_ ..:.:.:.:..:.:＼＞ _ ノ {　{勹)　|!　ｆ‐'勹 .}／-､　ー´￣ 　 ､
+: :: :: :＼∨/- .:.:.:.:.:.:.rr}Y 人＼廴ｚ　_ノ廴　辷У斗- '　　　　　　　＼
+　　　　 }{r勹ﾉ} 　. :::{fi.∨ｒｊハ　} ／　 ヽ 兀_　　}Уi }　　　　　　　　　)
+　　　／∧ー '　　　 ＼ ｀廴〈ノ/ tr― } }､.　}/勹ﾉ　,′　　　　 　 　 (
+　　　￣　　　　　　　 　 :ー＼ 廴辷勹ノ　∨ー ´／
+　　　　　　　　　　　　　　::::::::ｒー――――匕 ´
+  </pre>
+  <pre class="aa textar">
+　　　　　　　　　　　　ｒ ―v ⌒丶　＿
+　 　 　 　 　 　 ,..-―´:_: :r| ,.. :: ´: : : : : : :｀:....
+　　　　　　　　/: Y ￣⊂／: : : : : : : : : : : : : : : ヽ
+　　　　 　 　 /: : { 　 ／: : : : : : : : : : : : ::∧: : : : :
+　　　　 　 ／.: : : ゝ/: :;: : : : : : : : : : : : :/　　、: : : :i
+　 　 　 ／ /: : : : :/: :/: : : : : :/: : ::i: : :/ ＿　ヽ: : :::|
+　　　 /　 /: : : : :/／i: : : : /:´i￣: !!:::/ ´ 　 ヽ }: : : !
+　　　.{ 　 {: : : : /: : : |:| : : |＿|!＿」∨　　 　 　 !n : |
+　　　 ヽ　 ＼: : : : : : ﾘ!:_:_:| , ＝=　　 　　=＝､　 }: :|
+　　　 　 ＼__}: : : : : : !: : |:| ′,, ,　　 '　　　,, , ｀ / /
+　　　　　　　 ! : : : : : |: : !:|!　　　 , -―-､　 　 /: /}
+　　　　　　 ノ:: : : : : ::|: ::| 八　　 l　　　　}　　/／:/
+　., =＝ニ´: : : ﾉ: : :ノ| : |＿ .＞　　 --　　／}从/
+. (　 　／: : :／ー ´ f.|: :|　||　 　 l　ー　 i´ ￣ }/⌒丶
+　　　( : : イ 　 　 　 | !ﾊ!　||　　 　 ,　- 、　　//　　　}
+　　　 ＼: :|　rtn ､.__|　　._」|rnri／, ―　У}屮― 、./
+　　　 　 )/ {辷勹ﾉ: :! ／ｒtn'＾i/　{　辷}　)/}Ｖ⌒ヽ/　＼ ＿
+　　　.／´.:.:.:.:.:.:.:.:.:.:／　{辷勹{　入　Y ´　人 _)Y) )　　 ｒtn　ヽ
+　 .／.:.:.:.:.:.:.:.:.:.:.:.:.:〈　 r七＿ノ, ´rt　ヽ ／　 _У／ )　{辷勹__　Y
+／.:.:.:.:_.:.:.:.:_ ..:.:.:.:..:.:＼＞ _ ノ {　{勹)　|!　ｆ‐'勹 .}／-､　ー´￣ 　 ､
+: :: :: :＼∨/- .:.:.:.:.:.:.rr}Y 人＼廴ｚ　_ノ廴　辷У斗- '　　　　　　　＼
+　　　　 }{r勹ﾉ} 　. :::{fi.∨ｒｊハ　} ／　 ヽ 兀_　　}Уi }　　　　　　　　　)
+　　　／∧ー '　　　 ＼ ｀廴〈ノ/ tr― } }､.　}/勹ﾉ　,′　　　　 　 　 (
+　　　￣　　　　　　　 　 :ー＼ 廴辷勹ノ　∨ー ´／
+　　　　　　　　　　　　　　::::::::ｒー――――匕 ´
+  </pre>
+  <pre class="aa textar-min">
+　　　　　　　　　　　　ｒ ―v ⌒丶　＿
+　 　 　 　 　 　 ,..-―´:_: :r| ,.. :: ´: : : : : : :｀:....
+　　　　　　　　/: Y ￣⊂／: : : : : : : : : : : : : : : ヽ
+　　　　 　 　 /: : { 　 ／: : : : : : : : : : : : ::∧: : : : :
+　　　　 　 ／.: : : ゝ/: :;: : : : : : : : : : : : :/　　、: : : :i
+　 　 　 ／ /: : : : :/: :/: : : : : :/: : ::i: : :/ ＿　ヽ: : :::|
+　　　 /　 /: : : : :/／i: : : : /:´i￣: !!:::/ ´ 　 ヽ }: : : !
+　　　.{ 　 {: : : : /: : : |:| : : |＿|!＿」∨　　 　 　 !n : |
+　　　 ヽ　 ＼: : : : : : ﾘ!:_:_:| , ＝=　　 　　=＝､　 }: :|
+　　　 　 ＼__}: : : : : : !: : |:| ′,, ,　　 '　　　,, , ｀ / /
+　　　　　　　 ! : : : : : |: : !:|!　　　 , -―-､　 　 /: /}
+　　　　　　 ノ:: : : : : ::|: ::| 八　　 l　　　　}　　/／:/
+　., =＝ニ´: : : ﾉ: : :ノ| : |＿ .＞　　 --　　／}从/
+. (　 　／: : :／ー ´ f.|: :|　||　 　 l　ー　 i´ ￣ }/⌒丶
+　　　( : : イ 　 　 　 | !ﾊ!　||　　 　 ,　- 、　　//　　　}
+　　　 ＼: :|　rtn ､.__|　　._」|rnri／, ―　У}屮― 、./
+　　　 　 )/ {辷勹ﾉ: :! ／ｒtn'＾i/　{　辷}　)/}Ｖ⌒ヽ/　＼ ＿
+　　　.／´.:.:.:.:.:.:.:.:.:.:／　{辷勹{　入　Y ´　人 _)Y) )　　 ｒtn　ヽ
+　 .／.:.:.:.:.:.:.:.:.:.:.:.:.:〈　 r七＿ノ, ´rt　ヽ ／　 _У／ )　{辷勹__　Y
+／.:.:.:.:_.:.:.:.:_ ..:.:.:.:..:.:＼＞ _ ノ {　{勹)　|!　ｆ‐'勹 .}／-､　ー´￣ 　 ､
+: :: :: :＼∨/- .:.:.:.:.:.:.rr}Y 人＼廴ｚ　_ノ廴　辷У斗- '　　　　　　　＼
+　　　　 }{r勹ﾉ} 　. :::{fi.∨ｒｊハ　} ／　 ヽ 兀_　　}Уi }　　　　　　　　　)
+　　　／∧ー '　　　 ＼ ｀廴〈ノ/ tr― } }､.　}/勹ﾉ　,′　　　　 　 　 (
+　　　￣　　　　　　　 　 :ー＼ 廴辷勹ノ　∨ー ´／
+　　　　　　　　　　　　　　::::::::ｒー――――匕 ´
+  </pre>
+  <pre class="aa ume-pgc4">
+　　　　　　　　　　　　ｒ ―v ⌒丶　＿
+　 　 　 　 　 　 ,..-―´:_: :r| ,.. :: ´: : : : : : :｀:....
+　　　　　　　　/: Y ￣⊂／: : : : : : : : : : : : : : : ヽ
+　　　　 　 　 /: : { 　 ／: : : : : : : : : : : : ::∧: : : : :
+　　　　 　 ／.: : : ゝ/: :;: : : : : : : : : : : : :/　　、: : : :i
+　 　 　 ／ /: : : : :/: :/: : : : : :/: : ::i: : :/ ＿　ヽ: : :::|
+　　　 /　 /: : : : :/／i: : : : /:´i￣: !!:::/ ´ 　 ヽ }: : : !
+　　　.{ 　 {: : : : /: : : |:| : : |＿|!＿」∨　　 　 　 !n : |
+　　　 ヽ　 ＼: : : : : : ﾘ!:_:_:| , ＝=　　 　　=＝､　 }: :|
+　　　 　 ＼__}: : : : : : !: : |:| ′,, ,　　 '　　　,, , ｀ / /
+　　　　　　　 ! : : : : : |: : !:|!　　　 , -―-､　 　 /: /}
+　　　　　　 ノ:: : : : : ::|: ::| 八　　 l　　　　}　　/／:/
+　., =＝ニ´: : : ﾉ: : :ノ| : |＿ .＞　　 --　　／}从/
+. (　 　／: : :／ー ´ f.|: :|　||　 　 l　ー　 i´ ￣ }/⌒丶
+　　　( : : イ 　 　 　 | !ﾊ!　||　　 　 ,　- 、　　//　　　}
+　　　 ＼: :|　rtn ､.__|　　._」|rnri／, ―　У}屮― 、./
+　　　 　 )/ {辷勹ﾉ: :! ／ｒtn'＾i/　{　辷}　)/}Ｖ⌒ヽ/　＼ ＿
+　　　.／´.:.:.:.:.:.:.:.:.:.:／　{辷勹{　入　Y ´　人 _)Y) )　　 ｒtn　ヽ
+　 .／.:.:.:.:.:.:.:.:.:.:.:.:.:〈　 r七＿ノ, ´rt　ヽ ／　 _У／ )　{辷勹__　Y
+／.:.:.:.:_.:.:.:.:_ ..:.:.:.:..:.:＼＞ _ ノ {　{勹)　|!　ｆ‐'勹 .}／-､　ー´￣ 　 ､
+: :: :: :＼∨/- .:.:.:.:.:.:.rr}Y 人＼廴ｚ　_ノ廴　辷У斗- '　　　　　　　＼
+　　　　 }{r勹ﾉ} 　. :::{fi.∨ｒｊハ　} ／　 ヽ 兀_　　}Уi }　　　　　　　　　)
+　　　／∧ー '　　　 ＼ ｀廴〈ノ/ tr― } }､.　}/勹ﾉ　,′　　　　 　 　 (
+　　　￣　　　　　　　 　 :ー＼ 廴辷勹ノ　∨ー ´／
+　　　　　　　　　　　　　　::::::::ｒー――――匕 ´
+  </pre>
+  <pre class="aa monaya">
+　　　　　　　　　　　　ｒ ―v ⌒丶　＿
+　 　 　 　 　 　 ,..-―´:_: :r| ,.. :: ´: : : : : : :｀:....
+　　　　　　　　/: Y ￣⊂／: : : : : : : : : : : : : : : ヽ
+　　　　 　 　 /: : { 　 ／: : : : : : : : : : : : ::∧: : : : :
+　　　　 　 ／.: : : ゝ/: :;: : : : : : : : : : : : :/　　、: : : :i
+　 　 　 ／ /: : : : :/: :/: : : : : :/: : ::i: : :/ ＿　ヽ: : :::|
+　　　 /　 /: : : : :/／i: : : : /:´i￣: !!:::/ ´ 　 ヽ }: : : !
+　　　.{ 　 {: : : : /: : : |:| : : |＿|!＿」∨　　 　 　 !n : |
+　　　 ヽ　 ＼: : : : : : ﾘ!:_:_:| , ＝=　　 　　=＝､　 }: :|
+　　　 　 ＼__}: : : : : : !: : |:| ′,, ,　　 '　　　,, , ｀ / /
+　　　　　　　 ! : : : : : |: : !:|!　　　 , -―-､　 　 /: /}
+　　　　　　 ノ:: : : : : ::|: ::| 八　　 l　　　　}　　/／:/
+　., =＝ニ´: : : ﾉ: : :ノ| : |＿ .＞　　 --　　／}从/
+. (　 　／: : :／ー ´ f.|: :|　||　 　 l　ー　 i´ ￣ }/⌒丶
+　　　( : : イ 　 　 　 | !ﾊ!　||　　 　 ,　- 、　　//　　　}
+　　　 ＼: :|　rtn ､.__|　　._」|rnri／, ―　У}屮― 、./
+　　　 　 )/ {辷勹ﾉ: :! ／ｒtn'＾i/　{　辷}　)/}Ｖ⌒ヽ/　＼ ＿
+　　　.／´.:.:.:.:.:.:.:.:.:.:／　{辷勹{　入　Y ´　人 _)Y) )　　 ｒtn　ヽ
+　 .／.:.:.:.:.:.:.:.:.:.:.:.:.:〈　 r七＿ノ, ´rt　ヽ ／　 _У／ )　{辷勹__　Y
+／.:.:.:.:_.:.:.:.:_ ..:.:.:.:..:.:＼＞ _ ノ {　{勹)　|!　ｆ‐'勹 .}／-､　ー´￣ 　 ､
+: :: :: :＼∨/- .:.:.:.:.:.:.rr}Y 人＼廴ｚ　_ノ廴　辷У斗- '　　　　　　　＼
+　　　　 }{r勹ﾉ} 　. :::{fi.∨ｒｊハ　} ／　 ヽ 兀_　　}Уi }　　　　　　　　　)
+　　　／∧ー '　　　 ＼ ｀廴〈ノ/ tr― } }､.　}/勹ﾉ　,′　　　　 　 　 (
+　　　￣　　　　　　　 　 :ー＼ 廴辷勹ノ　∨ー ´／
+　　　　　　　　　　　　　　::::::::ｒー――――匕 ´
+  </pre>
+  <pre class="aa giko2">
+　　　　　　　　　　　　ｒ ―v ⌒丶　＿
+　 　 　 　 　 　 ,..-―´:_: :r| ,.. :: ´: : : : : : :｀:....
+　　　　　　　　/: Y ￣⊂／: : : : : : : : : : : : : : : ヽ
+　　　　 　 　 /: : { 　 ／: : : : : : : : : : : : ::∧: : : : :
+　　　　 　 ／.: : : ゝ/: :;: : : : : : : : : : : : :/　　、: : : :i
+　 　 　 ／ /: : : : :/: :/: : : : : :/: : ::i: : :/ ＿　ヽ: : :::|
+　　　 /　 /: : : : :/／i: : : : /:´i￣: !!:::/ ´ 　 ヽ }: : : !
+　　　.{ 　 {: : : : /: : : |:| : : |＿|!＿」∨　　 　 　 !n : |
+　　　 ヽ　 ＼: : : : : : ﾘ!:_:_:| , ＝=　　 　　=＝､　 }: :|
+　　　 　 ＼__}: : : : : : !: : |:| ′,, ,　　 '　　　,, , ｀ / /
+　　　　　　　 ! : : : : : |: : !:|!　　　 , -―-､　 　 /: /}
+　　　　　　 ノ:: : : : : ::|: ::| 八　　 l　　　　}　　/／:/
+　., =＝ニ´: : : ﾉ: : :ノ| : |＿ .＞　　 --　　／}从/
+. (　 　／: : :／ー ´ f.|: :|　||　 　 l　ー　 i´ ￣ }/⌒丶
+　　　( : : イ 　 　 　 | !ﾊ!　||　　 　 ,　- 、　　//　　　}
+　　　 ＼: :|　rtn ､.__|　　._」|rnri／, ―　У}屮― 、./
+　　　 　 )/ {辷勹ﾉ: :! ／ｒtn'＾i/　{　辷}　)/}Ｖ⌒ヽ/　＼ ＿
+　　　.／´.:.:.:.:.:.:.:.:.:.:／　{辷勹{　入　Y ´　人 _)Y) )　　 ｒtn　ヽ
+　 .／.:.:.:.:.:.:.:.:.:.:.:.:.:〈　 r七＿ノ, ´rt　ヽ ／　 _У／ )　{辷勹__　Y
+／.:.:.:.:_.:.:.:.:_ ..:.:.:.:..:.:＼＞ _ ノ {　{勹)　|!　ｆ‐'勹 .}／-､　ー´￣ 　 ､
+: :: :: :＼∨/- .:.:.:.:.:.:.rr}Y 人＼廴ｚ　_ノ廴　辷У斗- '　　　　　　　＼
+　　　　 }{r勹ﾉ} 　. :::{fi.∨ｒｊハ　} ／　 ヽ 兀_　　}Уi }　　　　　　　　　)
+　　　／∧ー '　　　 ＼ ｀廴〈ノ/ tr― } }､.　}/勹ﾉ　,′　　　　 　 　 (
+　　　￣　　　　　　　 　 :ー＼ 廴辷勹ノ　∨ー ´／
+　　　　　　　　　　　　　　::::::::ｒー――――匕 ´
   </pre>
   <footer>
     <span class="signature">
